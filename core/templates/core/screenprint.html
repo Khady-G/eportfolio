@@ -1,0 +1,89 @@
+{% load static %}
+
+<!DOCTYPE html>
+<!--
+    Anything you put in between the double-dash arrow symbols shown around
+    this block of text is designated a 'comment' intended for human coders
+    and ignored by the computer. The top "<!DOCTYPE html>" line of code
+    declares that this text file is to be interpreted as HTML code.
+-->
+
+<html lang=en>
+<!--
+    This opening tag marks the start of the html code.  Everything below
+    until the </html> closing tag is part of this element. "lang" is an
+    attribute defining the language of the website. The value "en"
+    indicates this site is written in English. We indent the content
+    inside an element to make it easier for people to read and understand.
+-->
+
+    <head>
+    <!--Code about the website NOT displayed in the browser window.-->
+
+        <meta charset="UTF-8"> <!--Sets site to use standard characters.-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Sizes your site to the visitor's screen size -->
+
+        <meta name="author" content="Your Name">
+        <!--
+            Some tags like "meta" are self-closing. They have "attributes"
+            but no inner content and they don't need or use a closing tag.
+        -->
+
+        <title>Yourname's Screenprinting Project</title>
+        <!--The 'title' is what's displayed in the browser tab.-->
+
+        <link rel="stylesheet" href="{% static 'core/style.css' %}">
+        <!--
+            HTML (HyperText Markup Language) code is for the website
+            content. CSS (Cascading Style Sheets) code is for the website
+            style. The line above tells the browser the file location and
+            file name to find this code that you'll write/edit there.
+        -->
+
+    </head>
+
+    <body> <!--Everything to be displayed in the browser window.-->
+
+<nav>
+    <ul>
+	<li><a href="https://esumsnh.net/">About Me</a></li>
+	<li><a href="mysteryblackbox.html">Black Box Investigation</a></li>
+	<li><strong>Screenprinting Project</strong></li>
+	<li><a href="#">Genetics Documentary</li></a>
+	<li><a href="#">Augmented Reality Animation</a></li>
+    </ul>
+</nav>
+        <h1>New Media and Tech: Screen Printing a Hand Shake!</h1>
+        <h4>By:Khady Gaye</h4>
+        <h2>Introduction:</h2>
+        <p>This project was part of the New Media And Tech class, where we use tools in designing, coding, and explore the power of creativity increasing our problem solving skills, collaboration and communication skills. For my project, I chose to screen print a hand shake. Originally, I chose a hand heart because I saw from the past years they've used it and I thought it was a great idea, however I wanted to come up with my own idea and something that was different, so I ended up creating a design with two people sharing a handshake to symbolize unity partnership, etc.</p>
+<img src="{% static 'core/screenprint/original.JPG' %}" alt="This is the original handshake image with two people shaking hand" width="250">
+        <h2>Purpose:</h2>
+   	<p>	The handshake is an all-around representation of integrity and peace. I chose this design to depict the worth of teamwork, understanding, and agreement worldwide. My intended audience includes anyone who agrees with caring for others and striving together. The goal of this project was to create a design that positively influences the audience.
+<img src="{% static 'core/screenprint/paper1.JPG' %}" alt="Image shows teamates taking photo of the physical handshake " width="250">
+</p>
+<h2>Photography of Design:</h2>
+<p>	To create the design, my teammates and I used a Canon T7 to capture each photograph of the designs, allowing us to have a variety of features to choose from to complete the design using our body parts for example, our hands or eyes. We used different features like lighting, focus, adjustments, and more that assisted us to capture high quality images and gave us full control over the features to adjust to our likings.</p>
+<img src="{% static 'core/screenprint/BTS.JPG' %}" alt="Image shows a behind the scenes of teamates taking photo of the physical handshake " width="250">
+<h2>Design and Screen Printing Process:</h2>
+<p>	The first step of the design process was planning and deciding which design I wanted to use, which in this case is a handshake between two people, then taking a photograph of our design. . Second, to create the final design, I used Adobe Photoshop 2025 to edit the image by changing the color of the image from black and white to purple, creating contrast, and other mini details. Third, I was preparing the screen and wood. To do this, I used a saw machine for cutting wood to accurately cut the wood pieces for the frame. After this, I used wood glue and stapled the pieces of wood together to create the frame shape and add stability. After, I used mesh and put it over the frame tightly with help from my teammates to ensure there were no loose corners. It was now time to prepare the screen. I printed the handshake design onto a stencil sheet that matched the size of the design and printed it. Next, I peeled the excess parts of the stencils that were unneeded off the final print and placed it in the middle of my frame with mesh on it and taped around it so that it can prevent it from leaking through. Finally, I mixed the paint colors blue, red, and white to make the lavender purple color I wanted and printed it on a mini cardboard box, 2 papers, and fabric.
+</p>
+<div class="side-by-side">
+ <img src="{% static 'core/screenprint/screen.JPG' %}" alt="Image shows the final screen after paint " width="250">
+ <img src="{% static 'core/screenprint/fabric.JPG' %}" alt="Image shows teamates taking photo of the physical handshake " width="250">
+</div>
+<h2>Reflection:</h2>
+<p>	This project taught me and improved my skills of mainly creativity and teamwork. One of the challenges I faced was the words not printing thru on to the cardboard box which made it difficult to see and visualize what the design actually was. I was unable to overcome this situation, however if I were to ever do this again, I will make sure to fully clean off excess paint so it does not clog any parts of the screen. Through this project, I attained a deeper understanding of problem solving skills, collaboration, communication, and technical skills.</p>
+<h2>21st Century Competency:</h2>
+<p>	The 21st century competency skill I developed the most in this screen printing project was collaboration. I got feedback from my teacher and peers, help from classmates, and also assisting others when they needed it. I also improved my creativity skills. For example, my handshake design shows partnership, unity, and shows symbolism that is just the right fit for this screen printing project.</p>
+
+
+
+
+
+
+
+    </body>
+</html>

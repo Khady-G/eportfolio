@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+nav li {
+	background-color: lavender;
+	list-style-type: none;
+	padding: 8px;
+	display: inline-block;
+}
+
+body {
+      max-width: 700px;
+      margin: auto;
+      color: #CD73E8;
+     
+}
+
+h1 {color: #CD73E8;
+       color: #C74EE9;
+       fone-size: 50px;
+  font-family: "Galada", serif;
+  font-weight: 400;
+  font-style: normal;
+}      
+
+.side-by-side {
+	display: flex;
+}
+
+.side-by-side img {
+width: 45%;
+}
+
+img {
+     display: block;
+     margin: auto;
+	border: 4px solid lavender;
+
+}
+
+#intro {
+ 
+        font-size: 20px;
+}
+
+p {
+	padding: 0px 20px;
+}

@@ -10,4 +10,6 @@ def screenprint(request):
     return render(request, "core/screenprint.html")
 
 # TODO: add another view for the blackbox page
+def blackbox(request):
+    return render(request, "core/mysteryblackbox.html")
 
